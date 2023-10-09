@@ -1,9 +1,5 @@
-export function setFromArray(array) {
-    const set = new Set();
+const setFromArray = (array) => (
+    new Set(array)
+  );
   
-    array.forEach((element) => {
-      set.add(element);
-    });
-  
-    return set;
-  }
+  export default setFromArray;
