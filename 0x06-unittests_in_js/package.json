@@ -1,7 +1,7 @@
 {
   "name": "0x06-unittests_in_js",
   "version": "1.0.0",
-  "description": "",
+  "description": "0x06-unittests_in_js",
   "main": "index.js",
   "scripts": {
     "test": "mocha --require babel-register --timeout 10000 --exit ./test/*.js"
@@ -19,5 +19,6 @@
     "mocha": "^10.2.0",
     "request": "^2.88.2",
     "sinon": "^15.2.0"
-  }
+  },
+  "keywords": []
 }
